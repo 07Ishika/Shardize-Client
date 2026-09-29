@@ -43,6 +43,11 @@ The app will run at `http://localhost:5173/`.
 - [shardize-landing](https://github.com/07Ishika/shardize-landing) — standalone marketing/explainer page
 - [decentralized-storage](https://github.com/meetrshah2112/decentralized-storage) — Django + IPFS backend and node agent, developed by a teammate
 
+## Live Preview
+
+[View UI on AWS S3](http://shardize-bucket.s3-website.ap-south-1.amazonaws.com/)
+
+> Note: This is a static deployment of the login/signup UI for demonstration purposes. Authentication is not yet connected to a live backend.
 ## Status
 
 Final year project, in progress.
