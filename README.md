@@ -1,16 +1,48 @@
-# React + Vite
+# Shardize-Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The frontend web application for **Shardize**, a decentralized cloud storage platform built on IPFS. This is the actual product — where users register, log in, and manage their storage or node activity — as opposed to the standalone [landing/explainer page](https://github.com/07Ishika/shardize-landing).
 
-Currently, two official plugins are available:
+## What This Project Is
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A React + Vite single-page application providing:
+- **Authentication** — Login and Register pages
+- **Protected routing** — app routes accessible only to authenticated users
+- **Dark theme** UI
+- **Network diagram views** for visualizing storage nodes and file distribution
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 18
+- Vite
 
-## Expanding the ESLint configuration
+## Setup Instructions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**1. Clone the repository**
+```bash
+git clone https://github.com/07Ishika/Shardize-Client.git
+cd Shardize-Client
+```
+
+**2. Install dependencies**
+```bash
+npm install
+```
+
+**3. Run the dev server**
+```bash
+npm run dev
+```
+The app will run at `http://localhost:5173/`.
+
+## Notes
+
+- This app is built independently and connects to a Django + IPFS backend developed by a teammate.
+
+## Related Repositories
+
+- [shardize-landing](https://github.com/07Ishika/shardize-landing) — standalone marketing/explainer page
+- [decentralized-storage](https://github.com/meetrshah2112/decentralized-storage) — Django + IPFS backend and node agent, developed by a teammate
+
+## Status
+
+Final year project, in progress.
